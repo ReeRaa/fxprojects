@@ -20,7 +20,7 @@ public class AlertBox {
     public static void display(String title,String message) {
         Stage window = new Stage();
 
-        window.initModality(Modality.APPLICATION_MODAL); //block inpput from other windows
+        window.initModality(Modality.APPLICATION_MODAL); //block input from other windows
         window.setTitle(title);
         window.setMinWidth(250);
 
